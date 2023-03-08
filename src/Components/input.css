@@ -1,0 +1,31 @@
+
+.InputContainer{
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffccc2;
+    gap: 10px;
+}
+
+.InputContainer input {
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.InputContainer button {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 204, 194);
+    color: black;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+   
+}

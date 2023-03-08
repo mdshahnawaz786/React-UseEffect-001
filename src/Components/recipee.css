@@ -1,0 +1,54 @@
+
+.container{
+    width: 100%;
+    background: url(https://thumbs.dreamstime.com/b/colourful-various-herbs-spices-cooking-dark-background-herbs-spices-cooking-dark-background-113655482.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.recipeContainer{
+    width: 330px;
+    box-shadow: 0 1px 12px #ffccc2;
+    border-radius: 32px;
+  }
+
+  .recipeContainer img{
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+
+  }
+
+
+  .ingredients{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+
+  .ingredientsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffccc2;
+    text-align: center;
+    font-size: 9px;
+  }
+
+  .paraHead{
+    text-align: center;
+    color: #ffccc2;
+  }
+
+  .dishTypeTitle{
+    font-size: 10px;
+  }

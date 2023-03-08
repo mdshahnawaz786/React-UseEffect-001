@@ -1,0 +1,9 @@
+.heading{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffccc2;
+}
