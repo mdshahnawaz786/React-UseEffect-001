@@ -8,7 +8,22 @@ const Recipee = ({data}) => {
         data.map((ele) => {
           return (
             <div className="recipeContainer">
+
+              <div className="recipeeHeader">
+              <p className='paraHead'>Dishtype:  
+                <span className='dishTypeTitle'> {ele.recipe.dishType[0].toUpperCase()}</span>
+              </p>
+              <p className='paraHead'>Cuisine Type:   
+              <span className='dishTypeTitle'> {ele.recipe.cuisineType[0].toUpperCase()}</span>
+              </p>
+              </div>
+
+
+              <div className="imgDiv">
               <img src={ele.recipe.image} alt="" />
+              </div>
+
+
               <div className="ingredients">
                 <h5>INGREDIENTS:</h5>
 
@@ -20,12 +35,7 @@ const Recipee = ({data}) => {
                   );
                 })}
               </div>
-              <p className='paraHead'>Dishtype: 
-                <span className='dishTypeTitle'> {ele.recipe.dishType[0].toUpperCase()}</span>
-              </p>
-              <p className='paraHead'>Cuisine Type:
-              <span className='dishTypeTitle'> {ele.recipe.cuisineType[0].toUpperCase()}</span>
-              </p>
+             
             </div>
           );
         })}
