@@ -10,9 +10,8 @@ const Recipee = ({data}) => {
             <div className="recipeContainer">
               <img src={ele.recipe.image} alt="" />
               <div className="ingredients">
-                <h5 style={{color:"orange"}}>Ingredients:</h5>
+                <h5>INGREDIENTS:</h5>
 
-                {console.log(ele.recipe)}
                 {ele.recipe.ingredients.map((val) => {
                   return (
                     <div className="ingredientsContainer">
